@@ -40,12 +40,13 @@ div#container {
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
-        
+            
         }
 
         div#nome {
 
             padding-bottom: 20px;
+            
         }
 
         div#sobrenome .text {
@@ -55,13 +56,14 @@ div#container {
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
+            
         }
 
         div#sobrenome {
 
             padding-bottom: 20px;
         }
-
+    
          div#email .text {
 
             width: 94%;
@@ -70,9 +72,11 @@ div#container {
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
         }
+
         div#email {
 
             padding-bottom: 30px;
+            clear: both;
         }
 
         div#checkbox .excelente {
