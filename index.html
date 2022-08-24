@@ -14,6 +14,7 @@ body {
     height: 80vh;
     margin: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to right, rgba(168, 77, 77, 0.408), white);
     
 
 }
@@ -32,12 +33,15 @@ div#container {
         h1 {
 
             text-align: center;
+            padding: 5px;
         }
 
         p {
 
             text-align: center;
             margin-bottom: 50px;
+            padding: 10px;
+            justify-content: center;
         }
 
         div#nome .text {
@@ -94,13 +98,14 @@ div#container {
 
         div#radio .avaliacao {
 
-            display: block;
             width: 94%;
             padding: 10px;
             border: transparent;
             border-radius: 5px;
             background-color: rgb(217, 247, 253);
             display: inline-block;
+            margin: 1%;
+            text-align: justify;
 
         }
 
@@ -114,7 +119,7 @@ div#container {
             margin-bottom: 20px;
         }
 
-       div#comentario .text {
+     /*  div#comentario .text {
 
             width: 94%;
             height: 100px;
@@ -126,10 +131,29 @@ div#container {
             text-align: top justify;
             text-transform: none;
         }
+        */
 
         div#botoes {
 
+            box-sizing: border-box;
+        }
+        div#botoes .enviar:hover, .limpar:hover{
 
+            background-color: rgba(84, 201, 244, 0.726);
+            
+    }
+
+    div#botoes .enviar, .limpar {
+
+        width: 10em;
+        border-radius: 3px;
+
+    }
+
+    div#comentario .textarea{
+
+       max-width: 100%;
+       width: 600px;
     }
     </style>
     
@@ -193,13 +217,13 @@ div#container {
 
                 <label for="icoment"></label>
                 <legend>Deixe seu comentário</legend>
-                <textarea name="coment" id="icoment" cols="70" rows="10" placeholder="Insira seu texto" required maxlength="1000"></textarea>
+                <textarea  class="textarea" name="coment" id="icoment" cols="30" rows="10"></textarea>
                <!-- <input class="text" type="text" name="coment" id="icoment" maxlength="1000" autocomplete="on" placeholder="Insira seu texto aqui"> -->
                 </div>
             
                 <div id="botoes">
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
+                    <input class="enviar" type="submit" value="Enviar">
+                    <input class="limpar" type="reset" value="Limpar">
                 </div>
 
             </form>
