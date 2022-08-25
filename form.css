@@ -7,7 +7,7 @@ body {
     margin: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background-image: linear-gradient(to right, rgba(168, 77, 77, 0.408), white); */
-    background: url(../form/street-fighter-v-001.jpg) repeat;
+    background: url(../form/street-fighter-v-001.jpg) repeat top center;
     background-size: cover;
 }
 
@@ -40,19 +40,16 @@ div#container {
 
         div#nome .text {
 
-            width: 40%;
+            width: 90%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
-            border-radius: 5px;
-           clear: both;
-            
+            border-radius: 5px;            
         }
 
         div#nome {
 
             padding-bottom: 20px;  
-            float: left;
         }
 
         .text:hover {
@@ -62,7 +59,7 @@ div#container {
 
         div#sobrenome .text {
 
-            width: 40%;
+            width: 90%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
@@ -78,7 +75,7 @@ div#container {
 
          div#email .text {
 
-            width: 94%;
+            width: 90%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
@@ -89,8 +86,6 @@ div#container {
         div#email {
 
             padding-bottom: 30px;  
-            clear: both;
-        
         }
 
         div#radio .avaliacao {
@@ -121,7 +116,6 @@ div#container {
             padding: 10px;
             margin: 5px;
             text-align: justify;
-            
         }
 
     div#comentario .textarea{
