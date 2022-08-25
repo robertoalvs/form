@@ -18,6 +18,7 @@ div#container {
     border-radius: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
+    position: relative;
     
   
 }
@@ -40,7 +41,7 @@ div#container {
 
         div#nome .text {
 
-            width: 90%;
+            width: 124%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
@@ -50,6 +51,7 @@ div#container {
         div#nome {
 
             padding-bottom: 20px;  
+            float: left;
         }
 
         .text:hover {
@@ -59,23 +61,26 @@ div#container {
 
         div#sobrenome .text {
 
-            width: 90%;
+            width: 124%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
+            
         }
 
         div#sobrenome {
 
             padding-bottom: 20px;
+            float: right;
+            margin-right: 25%;
             
         }
    /* =========================================== Fim ========================================*/ 
 
          div#email .text {
 
-            width: 90%;
+            width: 93%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
@@ -86,6 +91,7 @@ div#container {
         div#email {
 
             padding-bottom: 30px;  
+            clear: both;
         }
 
         div#radio .avaliacao {
@@ -121,7 +127,17 @@ div#container {
     div#comentario .textarea{
 
        max-width: 100%;
-       width: 600px;
+       width: 605px;
+    }
+
+    div#comentario {
+
+        text-align: center;
+    }
+
+    .legenda {
+
+        text-align: left;
     }
 
     div#comentario .textarea:hover {
