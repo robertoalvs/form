@@ -19,6 +19,7 @@ div#container {
     margin-top: 40px;
     margin-bottom: 40px;
     
+  
 }
 
 
@@ -44,14 +45,14 @@ div#container {
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
+           clear: both;
             
         }
 
         div#nome {
 
             padding-bottom: 20px;  
-            
-
+            float: left;
         }
 
         .text:hover {
@@ -66,35 +67,36 @@ div#container {
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
-            
         }
 
         div#sobrenome {
 
             padding-bottom: 20px;
-            
+            margin-right: -0%%;
             
         }
    /* =========================================== Fim ========================================*/ 
 
          div#email .text {
 
-            width: 40%;
+            width: 94%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
+            
         }
 
         div#email {
 
             padding-bottom: 30px;  
+            clear: both;
         
         }
 
         div#radio .avaliacao {
 
-            width: 46%;
+            width: 94%;
             padding: 10px;
             border: transparent;
             border-radius: 5px;
@@ -118,6 +120,8 @@ div#container {
 
             width: 90%;
             padding: 10px;
+            margin: 5px;
+            text-align: justify;
             
         }
 
