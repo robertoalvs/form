@@ -19,6 +19,7 @@ div#container {
     margin-top: 40px;
     margin-bottom: 40px;
     position: relative;
+    max-width: 1080px;
 }
 
 
@@ -77,10 +78,13 @@ div#container {
         }
    /* =========================================== Fim ========================================*/ 
 
+   /* ==== div para alinhar no centro do container nome, sobrenome, email, select-estado =============== */
+
         div#principal {
 
             margin-left: 5%;
         }
+/* ---=============================== fim ================ */
 
          div#email .text {
 
@@ -148,7 +152,12 @@ div#container {
             margin: 5px;
             text-align: justify;
             clear: both;
-            margin: auto;
+            margin: auto;        
+        }
+
+        div#checkbox .jogos {
+
+            margin-bottom: 4px;
         }
 
     div#comentario .textarea{
