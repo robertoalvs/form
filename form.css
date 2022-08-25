@@ -19,8 +19,6 @@ div#container {
     margin-top: 40px;
     margin-bottom: 40px;
     position: relative;
-    
-  
 }
 
 
@@ -57,6 +55,7 @@ div#container {
         .text:hover {
 
             background-color: rgb(220, 191, 247);
+            cursor: pointer;
         }
 
         div#sobrenome .text {
