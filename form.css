@@ -6,8 +6,9 @@ body {
     height: 80vh;
     margin: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: linear-gradient(to right, rgba(168, 77, 77, 0.408), white);
-
+    /* background-image: linear-gradient(to right, rgba(168, 77, 77, 0.408), white); */
+    background: url(../form/street-fighter-v-001.jpg) repeat;
+    background-size: cover;
 }
 
 div#container {
@@ -33,9 +34,12 @@ div#container {
             justify-content: center;
         }
 
+
+/* ======================================= Nome e Sobrenome ==================================== */
+
         div#nome .text {
 
-            width: 94%;
+            width: 40%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
@@ -45,13 +49,18 @@ div#container {
 
         div#nome {
 
-            padding-bottom: 20px;
-            
+            padding-bottom: 20px;  
+
+        }
+
+        .text:hover {
+
+            background-color: rgb(220, 191, 247);
         }
 
         div#sobrenome .text {
 
-            width: 94%;
+            width: 40%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
@@ -62,11 +71,14 @@ div#container {
         div#sobrenome {
 
             padding-bottom: 20px;
+            
+            
         }
-    
+   /* =========================================== Fim ========================================*/ 
+
          div#email .text {
 
-            width: 94%;
+            width: 40%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
@@ -75,30 +87,19 @@ div#container {
 
         div#email {
 
-            padding-bottom: 30px;
-            clear: both;
-        }
-
-        div#checkbox .excelente {
-
-            width: 94%;
-            padding: 10px;
-            box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
-            border: 1px solid rgba(84, 201, 244, 0.726);
-            border-radius: 5px;
-            display: inline-block;
+            padding-bottom: 30px;  
+        
         }
 
         div#radio .avaliacao {
 
-            width: 94%;
+            width: 46%;
             padding: 10px;
             border: transparent;
             border-radius: 5px;
-            background-color: rgb(217, 247, 253);
+            background-color: rgb(224, 246, 250);
             display: inline-block;
-            
-
+        
         }
 
         div#radio .avaliacao{
@@ -109,41 +110,42 @@ div#container {
         div#radio {
 
             margin-bottom: 20px;
-        }
-
-     /*  div#comentario .text {
-
-            width: 94%;
-            height: 100px;
-            padding: 10px;
-            box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
-            border: 1px solid rgba(84, 201, 244, 0.726);
-            border-radius: 5px;
-            margin-bottom: 30px;
-            text-align: top justify;
-            text-transform: none;
-        }
-        */
-
-        div#botoes {
-
-            box-sizing: border-box;
-        }
-        div#botoes .enviar:hover, .limpar:hover{
-
-            background-color: rgba(84, 201, 244, 0.726);
             
-    }
+        }
 
-    div#botoes .enviar, .limpar {
+        div#checkbox {
 
-        width: 10em;
-        border-radius: 3px;
-
-    }
+            width: 90%;
+            padding: 10px;
+            
+        }
 
     div#comentario .textarea{
 
        max-width: 100%;
        width: 600px;
     }
+
+    div#comentario .textarea:hover {
+
+        background-color: rgb(220, 191, 247);
+
+    }
+/* =================================== BOTÕES ENVIAR E LIMPAR -======================*/
+
+    div#botoes {
+
+        box-sizing: border-box;
+        
+    }
+
+    div#botoes .enviar, .limpar {
+
+        width: 10em;
+        border-radius: 3px;
+    }
+
+    div#botoes .enviar:hover, .limpar:hover{
+
+    background-color: rgb(220, 191, 247);      
+}
