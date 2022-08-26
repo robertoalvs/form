@@ -5,7 +5,7 @@ body {
     width: 50%;
     height: 80vh;
     margin: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: sans-serif;
     /* background-image: linear-gradient(to right, rgba(168, 77, 77, 0.408), white); */
     background: url(../form/street-fighter-v-001.jpg) repeat top center;
     background-size: cover;
@@ -20,12 +20,14 @@ div#container {
     margin-bottom: 40px;
     position: relative;
     max-width: 1080px;
+    font-family: sans-serif;
 }
 
 
         h1 {
 
             text-align: center;
+            font-weight: bolder;
         }
 
         p {
@@ -33,6 +35,7 @@ div#container {
             text-align: center;
             margin-bottom: 50px;
             justify-content: center;
+            font-size: 15px;
         }
 
 
@@ -44,7 +47,7 @@ div#container {
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
-            border-radius: 5px;            
+            border-radius: 5px;           
         }
 
         div#nome {
@@ -122,6 +125,13 @@ div#container {
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
+            text-align: center;
+            color: rgb(138, 136, 136);
+        }
+
+        .est-label {
+
+            font-weight: bolder;
         }
 
         div#radio .avaliacao {
@@ -137,12 +147,19 @@ div#container {
         div#radio .avaliacao{
 
             margin-bottom: 7px;
+            margin-left: 5px;
         }
 
         div#radio {
 
             margin-bottom: 20px;
             margin: auto;
+        }
+
+        div#radio .leg {
+
+            margin-left: 5px;
+            font-weight: bolder;
         }
 
         div#checkbox {
@@ -152,12 +169,20 @@ div#container {
             margin: 5px;
             text-align: justify;
             clear: both;
-            margin: auto;        
+            margin: auto;   
+            color: rgb(153, 75, 75);   
+            font-weight: bolder; 
         }
 
         div#checkbox .jogos {
 
             margin-bottom: 4px;
+        }
+
+        .jogos-legend {
+
+            color: black;
+            padding-bottom: 5px;
         }
 
     div#comentario .textarea{
@@ -171,15 +196,19 @@ div#container {
         text-align: center;
     }
 
-    .legenda {
+    .legend {
 
-        text-align: left;
+        
     }
 
     div#comentario .textarea:hover {
 
         background-color: rgb(220, 191, 247);
+    }
 
+    .legend {
+
+        font-weight: bolder;
     }
 /* =================================== BOTÕES ENVIAR E LIMPAR -======================*/
 
@@ -197,5 +226,7 @@ div#container {
 
     div#botoes .enviar:hover, .limpar:hover{
 
-    background-color: rgb(220, 191, 247);      
+    background-color: rgb(220, 191, 247);  
+    text-transform: uppercase;   
+    transform:
 }

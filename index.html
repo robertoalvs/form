@@ -21,13 +21,13 @@
                 <div id="principal">
 
                     <div id="nome">
-                            <legend>Nome</legend>
+                            <legend class="legend">Nome</legend>
                             <label for="inome"></label>
                             <input class="text" type="text" name="nome" id="inome" autocomplete="on" placeholder="Insira seu nome" maxlength="100" required>
                     </div>
 
                     <div id="sobrenome">
-                        <legend class="sobre">Sobrenome</legend>
+                        <legend class="legend">Sobrenome</legend>
                         <label for="isobre"></label>
                         <input class="text" type="text" name="sobre" id="isobrenome" autocomplete="on" placeholder="Insira seu sobrenome" maxlength="100" required>
                     </div>
@@ -36,7 +36,7 @@
                     
                     <div id="email">
 
-                        <legend>Email</legend>
+                        <legend class="legend">Email</legend>
                         <label for="iemail"></label>
                         <input class="text" type="email" name="email" id="iemail" required maxlength="60"   autocomplete="on" placeholder="Insira seu email">
                     
@@ -44,7 +44,7 @@
                     
                     <div id="select">
 
-                    <label for="iest">Seu Estado</label><br>
+                    <label class="est-label" for="iest">Seu Estado</label><br>
                     <select class="estado" name="est" id="iest" required autocomplete="on">
 
                     <option value="" selected>----- Escolha -----</option>
@@ -98,7 +98,7 @@
 
             <div id="checkbox">
 
-                <legend class="jogos">Jogos favoritos</legend>
+                <legend class="jogos-legend">Jogos favoritos</legend>
                 <label class="jogos" for="isfv"><input type="checkbox" name="sfv" id="isfv">Street Fighter V</label> 
                 <label class="jogos" for="ineed"><input type="checkbox" name="need" id="ineed">Need for Speed</label> 
                 <label class="jogos" for="idown"><input type="checkbox" name="down" id="idown">Horizon Zero Down</label> 
@@ -128,7 +128,7 @@
                 <div id="comentario">
 
                 <label for="icoment"></label>
-                <legend class="legenda">Deixe seu comentário</legend>
+                <legend class="legend">Deixe seu comentário</legend>
                 <textarea  class="textarea" name="coment" id="icoment" cols="30" rows="10" placeholder="Insira seu texto" required></textarea>
                <!-- <input class="text" type="text" name="coment" id="icoment" maxlength="1000" autocomplete="on" placeholder="Insira seu texto aqui"> -->
                 </div>
