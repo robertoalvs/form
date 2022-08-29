@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+
+    width: 60%;
+    height: 80vh;
+}
+
+        /*  NOME */
+    div#nome .text {
+
+        width: 134%;
+    }
+
+    /* SOBRENOME */
+    div#sobrenome .text {
+
+         width: 144%;
+    }
+
+     /*  NOME */
+     div#email .text {
+
+        width: 134%;
+    }
+
+     div#sobrenome {
+
+         margin-right: 40%;
+     }
+     /* FIM SOBRENOME */
+
+
+     /* ESTADOS */
+       div#select {
+            
+        margin-right: 38%;
+        margin-top: -4%;
+        margin-bottom: 10px;
+
+      }
+
+        div#select .estado {
+
+            width: 153%;
+        }
+        /* FIM ESTADO */
+
+
+        /* RADIO */
+        div#radio .avaliacao {
+
+            width: 90%;  
+        }
+
+        /* CHECKBOX */
+        div#checkbox {
+
+            width: 90%;
+            padding: 5px;
+        }
+
+        .need {
+            display: block;
+        }
+
+        .god {
+
+            display: block;
+        }
+        /* FIM CHECKBOX */
+
+
+/* BOTÕES ENVIAR E LIMPAR */
+    div#botoes .enviar, .limpar {
+
+        width: 9em;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+    
