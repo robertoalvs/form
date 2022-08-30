@@ -8,6 +8,11 @@ body {
     height: 80vh;
 }
 
+.paragrafo {
+
+   margin-bottom: 30px;
+}
+
         /*  NOME */
     div#nome .text {
 
@@ -38,7 +43,7 @@ body {
             
         margin-right: 58%;
         margin-top: -4%;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
 
       }
 
