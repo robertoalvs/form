@@ -33,13 +33,14 @@ body {
 
      /* ESTADOS */
        div#select {
-            
+        
+        margin-right: 118px;
     
       }
 
         div#select .estado {
 
-            width: 153%;
+            width: 154%;
         }
         /* FIM ESTADO */
 
