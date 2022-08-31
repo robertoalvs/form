@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+
+
+body {
+
+    width: 50%;
+    height: 80vh;
+}
+
+        /*  NOME */
+    div#nome .text {
+
+        width: 134%;
+    }
+
+    div#nome {
+
+        margin-left: 10px;
+    }
+
+/*  EMAIL */
+    div#email .text {
+
+    width: 135%;
+
+    }
+
+    div#email {
+
+        position: absolute;
+        left: 51px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+
+    /* SOBRENOME */
+    div#sobrenome .text {
+
+         width: 134%;
+    }
+
+     div#sobrenome {
+
+       
+     }
+     /* FIM SOBRENOME */
+
+
+     /* ESTADOS */
+       div#select {        
+        margin-top: -5px;
+      }
+      .est-label {
+
+        margin-left: 3px;
+      }
+        div#select .estado {
+
+            width: 153%;
+            margin-left: 2px;
+        }
+        /* FIM ESTADO */
+
+
+        /* RADIO */
+        div#radio .avaliacao {
+
+            width: 96%;  
+        }
+
+        /* CHECKBOX */
+        div#checkbox {
+
+            width: 90%;
+            padding: 15px;
+            
+        }
+
+        .need {
+            display: block;
+        }
+
+        .god {
+
+            display: block;
+        }
+        /* FIM CHECKBOX */
+
+
+       div#comentario {
+
+            text-align: left;
+            margin-left: 10px;
+        }
+/* BOTÕES ENVIAR E LIMPAR */
+    div#botoes .enviar, .limpar {
+
+        width: 9em;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+
