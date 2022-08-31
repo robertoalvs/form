@@ -55,6 +55,7 @@ body {
       .est-label {
 
         margin-left: 3px;
+        
       }
         div#select .estado {
 
@@ -70,35 +71,9 @@ body {
             width: 96%;  
         }
 
-        /* CHECKBOX */
-        div#checkbox {
-
-            width: 90%;
-            padding: 15px;
-            
-        }
-
-        .need {
-            display: block;
-        }
-
-        .god {
-
-            display: block;
-        }
-        /* FIM CHECKBOX */
-
-
        div#comentario {
 
             text-align: left;
             margin-left: 10px;
         }
-/* BOTÕES ENVIAR E LIMPAR */
-    div#botoes .enviar, .limpar {
-
-        width: 9em;
-        border-radius: 3px;
-        margin-left: 10px;
-    }
 
