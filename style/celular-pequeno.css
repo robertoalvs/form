@@ -6,6 +6,8 @@ body {
 
     width: 70%;
     height: 80vh;
+    background: none;
+    background-image: linear-gradient(to left, rgb(220, 191, 247), rgba(142, 212, 238, 0.461));
 }
 
 .paragrafo {
@@ -83,12 +85,6 @@ body {
         position: absolute;
         right: 2px; 
     }
-
-   .enviar {
-    position: absolute;
-    left: 0;
-
-   }
 
    .limpar {
 
