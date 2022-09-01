@@ -42,6 +42,10 @@ body {
     }
      /* FIM SOBRENOME */
 
+    div#checkbox {
+
+        padding-top: 20px;
+    }
 
      /* ESTADOS */
        div#select {        
