@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
 /* Extra small devices (phones, 600px and down) 
 @media only screen and (max-width: 600px) {...}
 
@@ -17,7 +22,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
 
 body {
 
-    width: 50%;
+    width: 70%;
     height: 80vh;
     margin: auto;
     font-family: sans-serif;
@@ -44,31 +49,62 @@ div#container {
 
             text-align: center;
             font-weight: bolder;
+            padding: 10px 0px 15px 0px;
         }
 
         p {
 
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
             justify-content: center;
             font-size: 15px;
         }
 
 
-/* ======================================= Nome e Sobrenome ==================================== */
+/* ================================================ */
 
+       
         div#nome .text {
 
-            width: 124%;
+            width: 90%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;           
         }
 
-        div#nome {
+        div#sobrenome .text {
 
-            padding-bottom: 20px;  
+            width: 90%;
+            padding: 10px;
+            box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
+            border: 1px solid rgba(84, 201, 244, 0.726);
+            border-radius: 5px; 
+            
+        }
+
+        div#email .text {
+
+            width: 90%;
+            padding: 10px;
+            box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
+            border: 1px solid rgba(84, 201, 244, 0.726);
+            border-radius: 5px;
+            
+        }
+
+        div#estadosbr .estado {
+
+            width: 96%;
+            padding: 10px;
+            box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
+            border: 1px solid rgba(84, 201, 244, 0.726);
+            border-radius: 5px;
+        }
+
+        div#estadosbr, div#nome, div#sobrenome, div#email {
+
+            text-align: center;
         }
 
         .text:hover {
@@ -76,68 +112,21 @@ div#container {
             background-color: rgb(220, 191, 247);
             cursor: pointer;
         }
-
-        div#sobrenome .text {
-
-            width: 124%;
-            padding: 10px;
-            box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
-            border: 1px solid rgba(84, 201, 244, 0.726);
-            border-radius: 5px;
-            
-        }
-
-        div#sobrenome {
-
-            padding-bottom: 20px;
-            margin-right: 20%;
-            
-        }
+      
    /* =========================================== Fim ========================================*/ 
 
    /* ==== div para alinhar no centro do container nome, sobrenome, email, select-estado =============== */
 
-        div#principal {
-
-            margin-left: 5%;
-        }
+        
+        
 /* ---=============================== fim ================ */
 
-         div#email .text {
-
-            width: 124%;
-            padding: 10px;
-            box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
-            border: 1px solid rgba(84, 201, 244, 0.726);
-            border-radius: 5px;
-            
-        }
-
-        div#email {
-
-            padding-bottom: 30px;  
-        }
-
-        div#select {
-
-            /*float: right;
-            margin-right: 21%;
-            margin-top: 0.010%; */
-        }
-
-        div#select .estado:hover {
+        div#estadosbr .estado:hover {
 
             background-color: rgb(220, 191, 247);
         }
 
-        div#select .estado {
-
-            width: 124%;
-            padding: 10px;
-            box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
-            border: 1px solid rgba(84, 201, 244, 0.726);
-            border-radius: 5px;
-        }
+        
 
         .est-label {
 
