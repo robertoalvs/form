@@ -7,14 +7,28 @@ body {
     background-image: linear-gradient(to left, rgb(220, 191, 247), rgba(142, 212, 238, 0.461));
 }
 
+div#nome {
+
+    margin-right: 100px;
+    width: 242px;
+}
+
 div#sobrenome {
 
-    margin-right: 175px;
+    margin-right: 100px;
+    width: 242px;
+}
+
+div#email {
+
+    margin-right: 100px;
+    width: 242px;
 }
 
 div#select {
     
-    margin-right: 181px;
+    margin-right: 114px;
+    width: 228px;
     margin-bottom: 20px;
 }
 
