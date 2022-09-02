@@ -37,3 +37,8 @@ div#select {
     right: 0;
     left: 369px;
 }
+
+div#checkbox {
+
+    text-align: center;
+}
