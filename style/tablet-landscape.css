@@ -37,3 +37,17 @@ div#select {
     right: 0;
     left: 369px;
 }
+
+div#comentario {
+
+    width: 660px;
+}
+
+.enviar {
+
+    margin-left: 75px;
+}
+.limpar {
+
+    margin-left: 210px;
+}
