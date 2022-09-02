@@ -100,6 +100,7 @@ div#container {
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
+        
         }
 
         div#estadosbr {
@@ -181,17 +182,18 @@ div#container {
             display: block;
             margin-bottom: 10px;
             padding-left: 10px;
+            
         }
 
         .jogos-legend {
 
             color: black;
-            padding-bottom: 5px;
+            padding-bottom: 10px;
         }
 
         .field {
-
-            box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.367);
+            border: none;
+            /* box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.367); */
         }
     /* ============================== FIM Checkbox ================================== */
 
