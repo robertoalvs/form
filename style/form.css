@@ -95,18 +95,24 @@ div#container {
 
         div#estadosbr .estado {
 
-            width: 96%;
-            padding: 10px;
+            width: 30%;
+            padding: 5px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
         }
 
-        div#estadosbr, div#nome, div#sobrenome, div#email {
+        div#estadosbr {
+
+            text-align: left;
+            margin-left: 5px;
+        }
+        div#nome, div#sobrenome, div#email {
 
             text-align: center;
         }
 
+        
         .text:hover {
 
             background-color: rgb(220, 191, 247);
@@ -126,11 +132,10 @@ div#container {
             background-color: rgb(220, 191, 247);
         }
 
-        
-
         .est-label {
 
             font-weight: bolder;
+            
         }
 
         div#radio .avaliacao {
@@ -165,17 +170,17 @@ div#container {
 
         div#checkbox {
 
-            width: 100%;
-            text-align: justify;
-            clear: both;
-            margin: auto;   
+            width: 60%; 
             color: rgb(153, 75, 75);   
-            font-weight: bolder; 
+            font-weight: bolder;  
+              
         }
 
-        div#checkbox .jogos {
+        div#checkbox .jogos, .need, .god {
 
-            margin-bottom: 4px;
+            display: block;
+            margin-bottom: 10px;
+            padding-left: 10px;
         }
 
         .jogos-legend {
