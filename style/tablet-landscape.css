@@ -2,45 +2,46 @@
 
 body {
 
-    width: 70%;
+    width: 80%;
 }
 
 
 div#nome {
 
-    width: 200px;
+    width: 160px;
     clear: both;
 }
 
 div#email {
 
-    width: 200px;
+    width: 160px;
     clear: both;
 }
 
 div#sobrenome {
 
-    width: 199px;
+    width: 160px;
     float: right;
     position: absolute;
-    top: 173px;
+    top: 189px;
     right: 0;
-    left: 369px;
+    left: 349px;
 }
 
 div#select {
 
-    width: 218px;
+    width: 180px;
     float: right;
     position: absolute;
-    top: 265px;
+    top: 282px;
     right: 0;
-    left: 369px;
+    left: 350px;
 }
 
 div#comentario {
 
-    width: 660px;
+    width: 540px;
+    margin-left: 20px;
 }
 
 .enviar {
@@ -49,5 +50,5 @@ div#comentario {
 }
 .limpar {
 
-    margin-left: 210px;
+    margin-left: 180px;
 }
