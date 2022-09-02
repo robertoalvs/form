@@ -124,9 +124,9 @@ div#container {
 
         div#select {
 
-            float: right;
+            /*float: right;
             margin-right: 21%;
-            margin-top: 0.010%;
+            margin-top: 0.010%; */
         }
 
         div#select .estado:hover {
@@ -136,13 +136,11 @@ div#container {
 
         div#select .estado {
 
-            width: 142%;
-            height: 37px;
+            width: 124%;
+            padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
             border-radius: 5px;
-            text-align: left;
-            color: rgb(138, 136, 136);
         }
 
         .est-label {
