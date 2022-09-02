@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+
+    width: 380px;
+    background: none;
+    background-image: linear-gradient(to left, rgb(220, 191, 247), rgba(142, 212, 238, 0.461));
+}
+
+div#sobrenome {
+
+    margin-right: 175px;
+}
+
+div#select {
+    
+    margin-right: 181px;
+    margin-bottom: 20px;
+}
+
+div#radio {
+
+    width: 330px;
+    margin-right: 22px;
+    margin-top: 10px;
+}
+
+div#comentario {
+
+    margin-right: 10px;
+}
+
+.limpar {
+
+    margin-left: 70px;
+}
+
+.enviar {
+
+    margin-left: 7px;
+}
