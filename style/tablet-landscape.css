@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+
+    width: 70%;
+}
+
+
+div#nome {
+
+    width: 200px;
+}
+
+div#email {
+
+    width: 200px;
+}
+
+div#sobrenome {
+
+    width: 200px;
+}
+
+div#select {
+
+    width: 216px;
+    float: right;
+    position: absolute;
+    top: 248px;
+    right: 0;
+    left: 369px;
+}
