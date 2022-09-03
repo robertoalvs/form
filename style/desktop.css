@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+
+    width: 60%;
+}
+
+div#nome {
+
+    width: 40%;  
+    float: left;           
+}
+
+div#sobrenome {
+
+    width: 40%;  
+    float: right; 
+    position: absolute;
+    top: 12%;
+    left: 45%;   
+}
+
+div#email {
+
+    width: 40%;
+    clear: both;   
+}
+
+div#estadosbr {
+
+    width: 60%;
+    float: right;
+    position: absolute;
+    top: 19%;
+    left: 45%;
+}
+
+div#estadosbr .estado {
+
+    width: 57.6%;
+    padding: 9px;
+}

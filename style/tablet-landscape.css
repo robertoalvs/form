@@ -2,53 +2,5 @@
 
 body {
 
-    width: 80%;
-}
-
-
-div#nome {
-
-    width: 160px;
-    clear: both;
-}
-
-div#email {
-
-    width: 160px;
-    clear: both;
-}
-
-div#sobrenome {
-
-    width: 160px;
-    float: right;
-    position: absolute;
-    top: 189px;
-    right: 0;
-    left: 349px;
-}
-
-div#select {
-
-    width: 180px;
-    float: right;
-    position: absolute;
-    top: 282px;
-    right: 0;
-    left: 350px;
-}
-
-div#comentario {
-
-    width: 540px;
-    margin-left: 20px;
-}
-
-.enviar {
-
-    margin-left: 75.5px;
-}
-.limpar {
-
-    margin-left: 180px;
+    width: 70%;
 }
