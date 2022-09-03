@@ -40,3 +40,30 @@ div#estadosbr .estado {
     width: 57.6%;
     padding: 9px;
 }
+
+@media screen and (min-width: 1375px) {
+
+    body {
+
+        width: 60%;
+    }
+    
+    div#estadosbr {
+
+        width: 60%;
+        float: right;
+        position: absolute;
+        top: 19%;
+        left: 45%;
+    }
+
+    div#sobrenome {
+
+        width: 40%;  
+        float: right; 
+        position: absolute;
+        top: 12%;
+        left: 45%;   
+    }
+    
+}
