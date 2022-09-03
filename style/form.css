@@ -22,7 +22,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
 
 body {
 
-    width: 65%;
+    width: 70%;
     height: 80vh;
     margin: auto;
     font-family: sans-serif;
@@ -40,7 +40,6 @@ div#container {
     margin-top: 40px;
     margin-bottom: 40px;
     position: relative;
-    max-width: 1080px;
     font-family: sans-serif;
 }
 
@@ -55,9 +54,9 @@ div#container {
         p {
 
             text-align: center;
-            margin-bottom: 30px;
+            margin: 0px 50px 20px 50px;
             justify-content: center;
-            font-size: 15px;
+            font-size: 15px;            
         }
 
 
@@ -66,12 +65,12 @@ div#container {
         
         div#nome, div#sobrenome, div#estadosbr, div#email {
 
-            padding-bottom: 15px;
+            padding-bottom: 25px;
         }
 
         div#nome, div#sobrenome, div#email {
 
-            text-align: center;
+            padding-left: 10%;
         }
 
         .estado:hover, .text:hover {
@@ -79,6 +78,14 @@ div#container {
             background-color: rgb(220, 191, 247);
             cursor: pointer;
         }
+
+        .est-label {
+
+            font-size: 16px;
+            font-weight: bolder;
+        }
+    
+/* ===================================================*/
 
         div#nome .text {
 
@@ -89,20 +96,13 @@ div#container {
             border-radius: 5px;           
         }
 
-        .legend {
-
-            text-align: center;
-        }
-/* ===================================================*/
-
         div#sobrenome .text {
 
             width: 80%;
             padding: 10px;
             box-shadow: 2px 2px 2px rgba(84, 201, 244, 0.726);
             border: 1px solid rgba(84, 201, 244, 0.726);
-            border-radius: 5px; 
-            
+            border-radius: 5px;    
         }
 
         div#email .text {
@@ -126,28 +126,15 @@ div#container {
         div#estadosbr {
 
             text-align: left;
-            margin-left: 3.9%;
+            margin-left: 10.4%;
             margin-bottom: 10px;
         }
-        
-      
-   /* =========================================== Fim ========================================*/ 
-
-   /* ==== div para alinhar no centro do container nome, sobrenome, email, select-estado =============== */
-
-        
-        
+                
 /* ---=============================== fim ================ */
 
         div#estadosbr .estado:hover {
 
             background-color: rgb(220, 191, 247);
-        }
-
-        .est-label {
-
-            font-weight: bolder;
-            margin-left: 0.8%;   
         }
 
         div#radio .avaliacao {
@@ -158,13 +145,9 @@ div#container {
             border-radius: 5px;
             background-color: rgb(224, 246, 250);
             display: block;
-            
-        }
-
-        div#radio .avaliacao{
-
             margin-bottom: 7px;
             margin-left: 7%;
+            
         }
 
         div#radio {
@@ -185,7 +168,7 @@ div#container {
             width: 60%; 
             color: rgb(153, 75, 75);   
             font-weight: bolder;  
-            margin-left: 4%;
+            margin-left: 20%;
               
         }
 
@@ -193,7 +176,7 @@ div#container {
 
             display: block;
             margin-bottom: 10px;
-            padding-left: 10px;
+            padding-left: 13px;
             
         }
 
@@ -201,11 +184,14 @@ div#container {
 
             color: black;
             padding-bottom: 10px;
+            margin-left: 5%;
+            text-align: center;
+            margin: auto;
         }
 
         .field {
-            border: none;
-            /* box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.367); */
+            
+            box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.367);
         }
     /* ============================== FIM Checkbox ================================== */
 
