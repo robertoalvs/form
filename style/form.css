@@ -84,6 +84,16 @@ div#container {
             font-size: 16px;
             font-weight: bolder;
         }
+
+        .legend {
+
+            font-weight: bolder;
+        }
+
+        div#estadosbr .estado:hover {
+
+            background-color: rgb(220, 191, 247);
+        }
     
 /* ===================================================*/
 
@@ -129,39 +139,9 @@ div#container {
             margin-left: 10.4%;
             margin-bottom: 10px;
         }
-                
-/* ---=============================== fim ================ */
 
-        div#estadosbr .estado:hover {
 
-            background-color: rgb(220, 191, 247);
-        }
-
-        div#radio .avaliacao {
-
-            width: 83%;
-            padding: 10px;
-            border: transparent;
-            border-radius: 5px;
-            background-color: rgb(224, 246, 250);
-            display: block;
-            margin-bottom: 7px;
-            margin-left: 7%;
-            
-        }
-
-        div#radio {
-
-        }
-
-        div#radio .leg {
-
-            text-align: center;
-            font-weight: bolder;
-            padding-bottom: 2px;
-        }
-
-    /* =============================== CheckBox ========================= */
+/* ================= CheckBox ================== */
 
         div#checkbox {
 
@@ -186,15 +166,39 @@ div#container {
             padding-bottom: 10px;
             margin-left: 5%;
             text-align: center;
-            
         }
 
         .field {
             
             box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.367);
         }
-    /* ============================== FIM Checkbox ================================== */
+/* ================= Fim CheckBox ================== */
 
+
+/* ================= Radio ================== */            
+        div#radio .avaliacao {
+
+            width: 83%;
+            padding: 10px;
+            border: transparent;
+            border-radius: 5px;
+            background-color: rgb(224, 246, 250);
+            display: block;
+            margin-bottom: 7px;
+            margin-left: 7%;
+        }
+
+        div#radio .leg {
+
+            text-align: center;
+            font-weight: bolder;
+            padding-bottom: 2px;
+        }
+/* ================= Fim Radio ================== */
+
+
+
+/* ================= Caixa Comentário =========== */
     div#comentario .textarea{
 
        max-width: 100%;
@@ -206,21 +210,16 @@ div#container {
         text-align: center;
     }
 
-    .legend {
-
-        
-    }
-
     div#comentario .textarea:hover {
 
         background-color: rgb(220, 191, 247);
     }
+/* ================= Fim Comentário =========== */
 
-    .legend {
 
-        font-weight: bolder;
-    }
-/* =================================== BOTÕES ENVIAR E LIMPAR -======================*/
+
+  
+/* ============== BOTÕES ENVIAR E LIMPAR ==============*/
 
     div#botoes {
 
