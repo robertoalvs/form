@@ -16,7 +16,7 @@ div#sobrenome {
     width: 40%;  
     float: right; 
     position: absolute;
-    top: 12%;
+    top: 13.6%;
     left: 45%;   
 }
 
@@ -31,7 +31,7 @@ div#estadosbr {
     width: 60%;
     float: right;
     position: absolute;
-    top: 19%;
+    top: 20.6%;
     left: 45%;
 }
 
@@ -53,7 +53,7 @@ div#estadosbr .estado {
         width: 60%;
         float: right;
         position: absolute;
-        top: 19.3%;
+        top: 20.6%;
         left: 45%;
     }
 
@@ -62,7 +62,7 @@ div#estadosbr .estado {
         width: 40%;  
         float: right; 
         position: absolute;
-        top: 12.2%;
+        top: 13.6%;
         left: 45%;   
     }
     
