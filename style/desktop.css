@@ -68,6 +68,15 @@ div#estadosbr .estado {
     
 }
 
+@media screen and (max-width: 1680px) {
+
+    body {
+
+        width: 50%;
+    }
+
+    }
+
 @media screen and (min-width: 1920px) {
 
     body {
@@ -87,12 +96,3 @@ div#estadosbr .estado {
         left: 44%;   
     }
 }
-
-@media screen and (max-width: 1680px) {
-
-    body {
-
-        width: 50%;
-    }
-
-    }
