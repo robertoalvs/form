@@ -13,10 +13,10 @@ div#nome {
 
 div#sobrenome {
 
-    width: 40%;  
+    width: 38%;  
     float: right; 
     position: absolute;
-    top: 13.6%;
+    top: 12.8%;
     left: 45%;   
 }
 
@@ -28,10 +28,10 @@ div#email {
 
 div#estadosbr {
 
-    width: 60%;
+    width: 58%;
     float: right;
     position: absolute;
-    top: 20.6%;
+    top: 20%;
     left: 45%;
 }
 
@@ -41,11 +41,11 @@ div#estadosbr .estado {
     padding: 9px;
 }
 
-@media screen and (min-width: 1375px) {
+@media screen and (min-width: 1440px) {
 
     body {
 
-        width: 50%;
+        width: 45%;
     }
     
     div#estadosbr {
@@ -53,7 +53,7 @@ div#estadosbr .estado {
         width: 60%;
         float: right;
         position: absolute;
-        top: 20.6%;
+        top: 20%;
         left: 45%;
     }
 
@@ -62,7 +62,7 @@ div#estadosbr .estado {
         width: 40%;  
         float: right; 
         position: absolute;
-        top: 13.6%;
+        top: 12.8%;
         left: 45%;   
     }
     
