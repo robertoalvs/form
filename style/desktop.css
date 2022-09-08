@@ -99,6 +99,14 @@ div#estadosbr .estado {
         width: 38%; 
         top: 11.4%; 
         left: 44%;  
+    }
+
+    body {
+
+        background: url(../street-fighter-v-001.jpg) repeat top center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
     }
 
@@ -122,7 +130,12 @@ div#estadosbr .estado {
         top: 11.4%; 
         left: 44%;   
     }
+
+    body {
+
+        background: url(../street-fighter-v-karin-wallpaper.jpg) repeat top center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
 
-
-}
