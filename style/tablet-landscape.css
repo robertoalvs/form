@@ -6,7 +6,7 @@ body {
         
 }
 
-@media screen and (max-width: 828px) and (max-width: 1792px) and (orientation: landscape){
+@media screen and (min-width: 828px) and (max-width: 1792px) and (orientation: landscape){
 
     body {
 
