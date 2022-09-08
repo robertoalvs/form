@@ -45,7 +45,7 @@ div#estadosbr .estado {
 
     body {
 
-        width: 45%;
+        width: 50%;
     }
     
     div#estadosbr {
@@ -68,12 +68,25 @@ div#estadosbr .estado {
     
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (min-width: 1680px) {
 
     body {
 
         width: 50%;
     }
+
+    div#estadosbr {
+
+        width: 56.3%;
+        left: 44%;
+        top: 18.7%;
+    }
+
+    div#sobrenome {
+
+        width: 38%; 
+        top: 11.4%; 
+        left: 44%;  
 
     }
 
@@ -88,11 +101,13 @@ div#estadosbr .estado {
 
         width: 56.3%;
         left: 44%;
+        top: 18.7%;
     }
 
     div#sobrenome {
 
-        width: 38%;  
+        width: 38%; 
+        top: 11.4%; 
         left: 44%;   
     }
 }
