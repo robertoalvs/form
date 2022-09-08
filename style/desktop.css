@@ -50,16 +50,17 @@ div#estadosbr .estado {
     
     div#estadosbr {
 
-        width: 60%;
+        width: 58%;
         float: right;
         position: absolute;
         top: 20%;
+        top: 18%;
         left: 45%;
     }
 
     div#sobrenome {
 
-        width: 40%;  
+        width: 39%;  
         float: right; 
         position: absolute;
         top: 12.8%;
@@ -68,29 +69,31 @@ div#estadosbr .estado {
     
 }
 
-/* @media screen and (min-width: 1920px) {
+@media screen and (max-width: 1680px) {
 
     body {
 
-        width: 45%;
+        width: 50%;
     }
-    
+
+    }
+
+@media screen and (min-width: 1920px) {
+
+    body {
+
+        width: 43%;
+    }
+
     div#estadosbr {
 
-        width: 60%;
-        float: right;
-        position: absolute;
-        top: 19.3%;
-        left: 45%;
+        width: 56.3%;
+        left: 44%;
     }
 
     div#sobrenome {
 
-        width: 40%;  
-        float: right; 
-        position: absolute;
-        top: 12.2%;
-        left: 45%;   
+        width: 38%;  
+        left: 44%;   
     }
-    
-} */
+}
