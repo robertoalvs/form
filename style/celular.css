@@ -6,3 +6,13 @@ body {
     background: none;
     background-image: linear-gradient(to left, rgb(220, 191, 247), rgba(142, 212, 238, 0.461));
 }
+
+@media screen and (max-width: 768px) and (orientation: landscape){
+    body {
+
+        background: none;
+        background-image: linear-gradient(to left, rgb(220, 191, 247), rgba(142, 212, 238, 0.461));
+    
+        }
+   
+}
