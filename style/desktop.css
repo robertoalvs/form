@@ -65,6 +65,18 @@ div#estadosbr .estado {
         top: 12.8%;
         left: 45%;   
     }
+
+    .text:hover, div#estadosbr .estado:hover,  div#botoes .enviar:hover, .limpar:hover, div#comentario .textarea:hover {
+        
+        background-color: rgba(0, 255, 255, 0.295);
+    } 
+
+    body {
+
+        background: url(../street-fighter-v-karin-wallpaper.jpg) repeat top center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
     
 }
 
