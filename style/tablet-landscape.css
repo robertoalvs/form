@@ -3,10 +3,16 @@
 body {
 
     width: 70%;
-    
+        
+}
+
+@media screen and (max-width: 828px) and (max-width: 1792px) and (orientation: landscape){
+
+    body {
+
     background: none;
     background-image: linear-gradient(to left, rgb(220, 191, 247), rgba(142, 212, 238, 0.461));
-    
 
+    }
     
 }
