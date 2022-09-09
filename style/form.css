@@ -86,7 +86,7 @@ div#container {
 
         .estado:hover, .text:hover {
 
-            background-color: rgb(220, 191, 247);
+            background-color: rgba(220, 191, 247, 0.459);
             cursor: pointer;
         }
 
@@ -103,7 +103,8 @@ div#container {
 
         div#estadosbr .estado:hover {
 
-            background-color: rgb(220, 191, 247);
+           /* background-color: rgb(220, 191, 247); */
+           background-color: rgba(220, 191, 247, 0.459);
         }
     
 /* ===================================================*/
@@ -223,7 +224,7 @@ div#container {
 
     div#comentario .textarea:hover {
 
-        background-color: rgb(220, 191, 247);
+        background-color: rgba(220, 191, 247, 0.459);
     }
 /* ================= Fim Comentário =========== */
 
@@ -247,7 +248,7 @@ div#container {
 
     div#botoes .enviar:hover, .limpar:hover{
 
-    background-color: rgb(220, 191, 247);  
+    background-color: rgba(220, 191, 247, 0.459); 
     text-transform: uppercase;
     font-weight: bolder;   
 }
