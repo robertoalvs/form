@@ -2,7 +2,8 @@
 
 body {
 
-    width: 380px;
+    width: 300px;
+    /* width: 380px; */
     background: none;
     background-image: linear-gradient(to left, rgb(220, 191, 247), rgba(142, 212, 238, 0.461));
 }
