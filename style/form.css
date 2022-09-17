@@ -161,6 +161,11 @@ div#container {
             outline: none;
         }
 
+        .fields {
+
+            border: transparent;
+        }
+
 /* ================= CheckBox ================== */
 
         div#checkbox {
