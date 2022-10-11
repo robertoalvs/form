@@ -202,6 +202,17 @@ div#container {
             transition-delay: 0.5s;
             transition-timing-function: cubic-bezier(.15,.89,.85,.26);
         }
+/* =================== Efeitos no checkbox ========================== */
+
+        .efeitocheck {
+
+            transition: transform 0.5s;
+        }
+
+        .efeitocheck:checked {
+
+            transform: rotateY(360deg);
+        }
 /* ================= Fim CheckBox ================== */
 
 
@@ -224,6 +235,17 @@ div#container {
             font-weight: bolder;
             padding-bottom: 2px;
         }
+/* =================== Efeitos Radio ========================== */
+        .efeito-radio {
+
+            transition: transform 1s;
+        }
+
+        .efeito-radio:checked {
+
+            transform: scale(1.5);
+        }
+
 /* ================= Fim Radio ================== */
 
 
